@@ -46,7 +46,6 @@ def is_game_over(current_positions):
             
         
         if possible_winner == "XXX":
-            print "X"
             return "X" + " wins!"
         
         elif possible_winner == "000":
